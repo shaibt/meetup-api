@@ -434,6 +434,18 @@
             }
         }
     },
+    "getGroupPhotoAlbums" : {
+        "resource": "https://api.meetup.com/:urlname/photo_albums",
+        "method": "get",
+        "test": {
+            "params": {
+                "urlname": "banodejs"
+            },
+            "return": {
+                "type": "array"
+            }
+        }
+    },
     "postPhoto": {
         "resource": "https://api.meetup.com/2/photo",
         "method": "post",
